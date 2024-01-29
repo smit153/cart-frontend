@@ -1,0 +1,81 @@
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #090127;
+}
+
+.dropzone {
+  width: 100%;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.dropzone.active {
+  background-color: #f0f0f0;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+.product-create-container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.form-container {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
