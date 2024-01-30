@@ -67,15 +67,30 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
+  flex-wrap: wrap; 
 }
 
 .form-container {
   flex: 1;
   padding-right: 20px;
+  box-sizing: border-box; 
+  margin-bottom: 20px; 
 }
 
 .image-container {
   flex: 1;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    flex: 1 100%;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .image-container {
+    flex: 1 100%;
+  }
 }
